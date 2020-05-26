@@ -1,0 +1,24 @@
+{
+    "name": "wjcms/composer",
+    "description": "composer learn",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "神兵小将 wjcms",
+            "email": "1059114241@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "houdunwang/wechat": "^2.0"
+    },
+    "autoload":{
+        "files":[
+            "src/lib/helper.php"
+        ],
+        "psr-4":{
+            "wjcms\\composer\\":"src"
+        }
+    }
+}
