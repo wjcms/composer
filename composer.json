@@ -9,7 +9,7 @@
             "email": "1059114241@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "houdunwang/wechat": "^2.0"
     },
